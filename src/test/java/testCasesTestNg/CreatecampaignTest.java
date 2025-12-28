@@ -46,7 +46,7 @@ public class CreatecampaignTest extends baseClass {
 //			System.out.println("Campaign created successfully");
 //		} else {
 //			System.out.println("Campaign not created");
-//		}
+//		} 
 		Assert.assertEquals(msg, "Campaign "+CAMPAIGNNAME+" Successfully Added");
 	}
 	
@@ -119,7 +119,7 @@ public class CreatecampaignTest extends baseClass {
 //	            System.out.println("Campaign not created");
 //	        }
 	       Assert.assertEquals(msg, "Campaign "+CAMPAIGNNAME+" Successfully Added");
-	      System.out.println("campaign testcases ran");
+	      System.out.println("campaign testcases ran successfully");
 	 }
 }
 
